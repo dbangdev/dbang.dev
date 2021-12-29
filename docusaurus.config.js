@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'DBang',
-    tagline: 'Deno CLI scripts management',
+    title: 'dbang',
+    tagline: 'CLI to manage Deno scripts on GitHub',
     url: 'https://dbang.dev',
     baseUrl: '/',
     onBrokenLinks: 'throw',
