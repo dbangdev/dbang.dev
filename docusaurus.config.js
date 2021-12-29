@@ -45,7 +45,7 @@ const config = {
             navbar: {
                 title: 'DBang',
                 logo: {
-                    alt: 'My Site Logo',
+                    alt: 'DBang Logo',
                     src: 'img/logo.svg',
                 },
                 items: [
@@ -57,7 +57,7 @@ const config = {
                     },
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/dbangdev',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -80,15 +80,11 @@ const config = {
                         items: [
                             {
                                 label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
+                                href: 'https://stackoverflow.com/questions/tagged/dbang',
                             },
                             {
                                 label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
+                                href: 'https://twitter.com/linux_china',
                             },
                         ],
                     },
@@ -101,7 +97,7 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                href: 'https://github.com/dbangdev/',
                             },
                         ],
                     },
