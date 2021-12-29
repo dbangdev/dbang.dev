@@ -8,28 +8,51 @@ Let's discover **DBang in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new catalog**.
+First you should install dbang, the easy way is `brew install dbangdev/tap/dbang`
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Generate your repo on Github
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
+Create a new repo by [gh - GitHub command Line](https://cli.github.com/): 
 
 ```shell
-npm init docusaurus@latest my-website classic
+gh repo create dbang-catalog
 ```
 
-## Start your site
+## Write your first script
 
-Run the development server:
+Create hello.ts with following code:
+
+```typescript
+console.log("Hello world!");
+```
+
+## Add your scripts in dbang-catalog.json
+
+Create a dbang-catalog.json file with following content:
+
+```json
+{
+  "aliases": {
+    "hello": {
+      "script-ref": "hello.ts",
+      "description": "Deno hello.ts"
+    }
+  }
+}
+```
+
+## Push your code to Github
 
 ```shell
-cd my-website
-
-npx docusaurus start
+git commit -m "Add hello.ts" hello.ts
+git commit -m "dbang-catalog.json" dbang-catalog.json
+git push
 ```
 
-Your site starts at `http://localhost:3000`.
+## Run your script by dbang
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+```shell
+dbang hello@yourname
+```
+
+**Attention**: gh is a command line tool for GitHub https://cli.github.com/
