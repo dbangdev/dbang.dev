@@ -8,8 +8,8 @@ const FeatureList = [
         Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
         description: (
             <>
-                dbang was designed from the ground up to be easily installed and
-                used to run your Deno scripts on GitHub quickly.
+                dbang was built on Deno, and easily installed and
+                used to run your Deno scripts on GitHub quickly and securely.
             </>
         ),
     },
