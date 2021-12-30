@@ -55,4 +55,4 @@ git push
 dbang hello@yourname
 ```
 
-**Attention**: gh is a command line tool for GitHub https://cli.github.com/
+**Attention**: Even you haven't installed Deno on your laptop, don't worry, and dbang will install latest Deno automatically and run your script. 
