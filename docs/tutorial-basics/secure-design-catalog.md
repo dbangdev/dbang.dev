@@ -25,7 +25,7 @@ remote catalog and script, and you should update catalog first.
 jbang catalog update github_user 
 ```
 
-ddang will prompt you to confirm scripts' new permissions if different with local jbang-catalog.json cache, and it's like Android App update.
+dbang will prompt you to confirm scripts' new permissions if different with local jbang-catalog.json cache, and it's like Android App update.
 
 # Cache delete
 
