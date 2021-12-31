@@ -8,7 +8,7 @@ dbang-catalog.json is a JSON file that contains a list of Deno scripts.
 
 ```json
 {
-  "aliases": {
+  "scripts": {
     "hello": {
       "script-ref": "hello.ts",
       "description": "Hello world"

@@ -32,7 +32,7 @@ Create a dbang-catalog.json file with following content:
 
 ```json
 {
-  "aliases": {
+  "scripts": {
     "hello": {
       "script-ref": "hello.ts",
       "description": "Deno hello.ts"
