@@ -8,7 +8,7 @@ Let's discover **DBang in less than 5 minutes**.
 
 ## Getting Started
 
-First you should install dbang, the easy way is `brew install dbangdev/tap/dbang`
+First you should install dbang, the easy way is `brew install dbangdev/tap/dbang` (X86) or `cargo install dbang`.
 
 ## Generate your repo on Github
 
