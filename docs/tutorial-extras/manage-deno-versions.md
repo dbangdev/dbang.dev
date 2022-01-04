@@ -9,7 +9,6 @@ as follows:
 
 ```shell
 dbang --deno 1.17.1 hello@github_user
-dbang --deno latest hello@github_user
 ```
 
 Don't worry about Deno installation, and dbang will download and install Deno automatically.
@@ -18,7 +17,6 @@ Don't worry about Deno installation, and dbang will download and install Deno au
 
 ```shell
 dbang deno install 1.17.1
-dbang deno install latest
 dbang deno list
-dbang deno remove 1.17.0
+dbang deno delete 1.17.1
 ```
