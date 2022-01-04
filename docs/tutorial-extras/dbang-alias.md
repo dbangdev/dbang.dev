@@ -22,7 +22,6 @@ After installation, you can use aliases to run scripts, for example `hello` or `
 # Commands for aliases
 
 ```shell
-dbang alias list
-dbang alias show <alias_name>
-dbang alias remove <alias_name>
+dbang apps
+dbang uninstall hello
 ```
